@@ -1,0 +1,1319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+      integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- urdu fonts -->
+    <link
+      rel="stylesheet"
+      href="https://misc.dawateislami.net/fonts/fonts.css"
+      type="text/css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- fav icon -->
+    <link rel="icon" type="image/x-icon" href="./images/favicon.png">
+
+
+    <title>Book Library</title>
+  </head>
+  <body>
+    <div class="big-container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light main-navbar" >
+        <div class="container-lg  nav-cont" >
+          <a class="navbar-brand brand-logo" href="#">
+            <img src="./images/logo.png" alt="logo" />
+          </a>
+          <button
+            class="navbar-toggler toggle-btn"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse collapse-div"
+            id="navbarNavDropdown"
+          >
+            <ul class="navbar-nav nav-ul">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Al Quran</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Media</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Madani Channel
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li>
+                    <a class="dropdown-item" href="#">Madani Channel Live</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Madani Channel Tv</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Ruhani ilaj</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Donation
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li>
+                    <a class="dropdown-item" href="#">Why Donate to us?</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Donate Now</a></li>
+                  <li><a class="dropdown-item" href="#">FGRF Donate</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Magazine
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li><a class="dropdown-item" href="#">Urdu Magazine</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">English Magazine</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Arabic Magazine</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Archive Magazine</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Booking</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Our Websites
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >The Holy Prophet صلی اللہ علیہ واٰلہ وسلم</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >Sheikh Abdul Qadir Jilani</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Imam Ahmed Raza khan</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >About Ameer-e-Ahlesunnat</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Haji Ubaid Ahmed Raza</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Dawateislami USA</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Dawateislami Canada </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Dawateislami Hong Kong</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Dawateislami Australia</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Dawateislami Korea</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      Organizational Website</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  More Services
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li><a class="dropdown-item" href="#">Blog</a></li>
+                  <li><a class="dropdown-item" href="#">Gallery</a></li>
+                  <li><a class="dropdown-item" href="#">Downloads</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Haftawar Bayanat</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Updates</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Public Service Message</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Location</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Letter of Appreciation</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Feedback</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container search-banner">
+        <div class="banner">
+          <div class="content">
+            <h1>Welcome to the Islamic Library.</h1>
+            <p>
+              Listing 3000+ Islamic books in more than 30 languages. Read online
+              or download in PDF.
+            </p>
+            <div class="input-group search-bar">
+              <input
+                type="text"
+                class="form-control search-input"
+                placeholder="Search Here your desired book"
+                aria-label="Recipient's username with two button addons"
+              />
+              <button class="btn search-btn" type="button">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+              <button class="btn history-btn" type="button">
+                <i class="fa-solid fa-clock-rotate-left"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="masjid-container " >
+        <div class="masjid-box" >
+          <table>
+            <tr>
+              <td class="white-td"></td>
+              <td class="mehrab-td">
+                <img
+                  class="mehrab-img img-fluid"
+                  src="./images/top-mehrab.png"
+                  alt="Mehrab"
+                />
+              </td>
+              <td class="white-td"></td>
+            </tr>
+          </table>
+
+          <div class="container quran-box">
+            <div class="heading-box col-lg-6 col-md-9 mx-auto">
+              <h2 class="quran-heading">Quran</h2>
+            </div>
+
+            <div class="about-quran">
+              <div class="card cards">
+                <img
+                  src="./images/quran.png"
+                  class="card-img-top img-fluid quran-img"
+                  alt="..."
+                />
+                <div class="link-box">
+                  <a href="#" class="card-text quran-text">Quran-O-Tafseer</a>
+                </div>
+              </div>
+
+              <div class="card cards">
+                <img
+                  src="./images/quran.png"
+                  class="card-img-top img-fluid quran-img"
+                  alt="..."
+                />
+                <div class="link-box">
+                  <a href="#" class="card-text quran-text">Quran Para Wise</a>
+                </div>
+              </div>
+
+              <div class="card cards">
+                <img
+                  src="./images/quran.png"
+                  class="card-img-top img-fluid quran-img"
+                  alt="..."
+                />
+                <div class="link-box">
+                  <a href="#" class="card-text quran-text">Sirat ul Jinan</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="middle-box " >
+        <div class="container about-book new-books-res">
+          <div class="b-box only-book" >
+            <h3>New Books</h3>
+          </div>
+
+          <div class="show-box">
+            <a href="javascript:void(0)">Show All></a>
+          </div>
+        </div>
+
+        <div class="container carousel">
+          <div class="owl-carousel theme owl-box">
+            <div class="item">
+              <img src="./images/st3229.jpg" alt="Book" />
+              <div class="icon-box">
+                <i class="fa fa-download download-icons"></i>
+              </div>
+              <p><a href="#">Riaz e Naeem</a></p>
+            </div>
+            <div class="item">
+              <img src="./images/st3226.jpg" alt="Book" />
+              <div class="icon-box">
+                <i class="fa fa-download download-icons"></i>
+              </div>
+              <p><a href="#">Faizan e Rabia Basri Ma 30 Hikayat</a></p>
+            </div>
+            <div class="item">
+              <img src="./images/st3225.jpg" alt="Book" />
+              <div class="icon-box">
+                <i class="fa fa-download download-icons"></i>
+              </div>
+              <p><a href="#">Jumma Ke Fazail</a></p>
+            </div>
+            <div class="item">
+              <img src="./images/st3224.jpg" alt="Book" />
+              <div class="icon-box">
+                <i class="fa fa-download download-icons"></i>
+              </div>
+              <p><a href="#">Maa ki dua</a></p>
+            </div>
+            <div class="item">
+              <img src="./images/st3223.jpg" alt="Book" />
+              <div class="icon-box">
+                <i class="fa fa-download download-icons"></i>
+              </div>
+              <p><a href="#">Maa Baap Ke Mutalliq Waqiaat</a></p>
+            </div>
+            <div class="item">
+              <img src="./images/st3222.jpg" alt="Book" />
+              <div class="icon-box">
+                <i class="fa fa-download download-icons"></i>
+              </div>
+              <p><a href="#"> Mahnama Faizan e Madina June 2023 </a></p>
+            </div>
+            <div class="item">
+              <img src="./images/st3220.jpg" alt="Book" />
+              <div class="icon-box">
+                <i class="fa fa-download download-icons"></i>
+              </div>
+              <p><a href="#">Mahanama Khawateen (Web Edition) June-2023</a></p>
+            </div>
+            <div class="item">
+              <img src="./images/st3219.jpg" alt="Book" />
+              <div class="icon-box">
+                <i class="fa fa-download download-icons"></i>
+              </div>
+              <p><a href="#">Partnership Aur Is Ke Zaroori Ahkam</a></p>
+            </div>
+            <div class="item">
+              <img src="./images/st3218.jpg" alt="Book" />
+              <div class="icon-box">
+                <i class="fa fa-download download-icons"></i>
+              </div>
+              <p><a href="#">Mudaraba Aur Is Ke Zaroori Ahkam</a></p>
+            </div>
+            <div class="item">
+              <img src="./images/st3217.jpg" alt="Book" />
+              <div class="icon-box">
+                <i class="fa fa-download download-icons"></i>
+              </div>
+              <p><a href="#">Brokerage Aur Is Ke Zaroori Ahkam</a></p>
+            </div>
+
+            <div class="item">
+              <img src="./images/st3216.jpg" alt="Book" />
+              <div class="icon-box">
+                <i class="fa fa-download download-icons"></i>
+              </div>
+              <p><a href="#">Kisi Ke Aeib Mat Dhondo</a></p>
+            </div>
+
+            <div class="item">
+              <img src="./images/bt3231.jpg" alt="Book" />
+              <div class="icon-box">
+                <i class="fa fa-download download-icons"></i>
+              </div>
+              <p><a href="#">Ameer e Ahle Sunnat Ka Pehla Hajj 1980H</a></p>
+            </div>
+          </div>
+
+          <div class="arrow-box">
+            <div class="owl-prev theme">
+              <img src="./images/right.png" />
+            </div>
+            <div class="owl-next">
+              <img src="./images/left.png" />
+            </div>
+          </div>
+        </div>
+
+        <div class="container p-0 mt-3">
+          <div class="weekly-book">
+            <h3>Book Of The Week</h3>
+          </div>
+        </div>
+
+        <div class="container p-0 audio-caro-box" >
+          <div
+            id="carouselExampleCaptions"
+            class="carousel slide m-0 p-0 w-100"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              </div>
+            <div class="carousel-inner">
+
+               <!-- caro 1 -->
+
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-md-6 col-12 book-bg p-0">
+                    <div class="audio-text-box">
+                      <h2>یاد مکہ و مدینہ</h2>
+
+                      <div class="audio-btn-box">
+                        <button type="button">Download</button>
+                        <button type="button">Audio</button>
+                      </div>
+
+                      <audio
+                        _ngcontent-serverapp-c30=""
+                        controls=""
+                        class="d-block audio__bar__styling audio-bar"
+                        id="audio-132039"
+                      >
+                        <source 
+                          _ngcontent-serverapp-c30=""
+                          type="audio/mpeg"
+                          src="https://data2.dawateislami.net/download/islam/ur/mp3/2023/132039.mp3"
+                        />
+                      </audio>
+                    </div>
+
+                    <nav
+                      aria-label="Page navigation example "
+                      class="page-example " 
+                    >
+                      <ul class="pagination m-0  page-ul">
+                        <li class="page-item items " >
+                          <a 
+                            class="page-link  pagination-links active"
+                            href="javascript:void(0)"
+                            >1</a
+                          >
+                        </li>
+                        <li class="page-item items">
+                          <a
+                            class="page-link pagination-links "
+                            href="javascript:void(0)"
+                            >2</a
+                          >
+                        </li>
+                        <li class="page-item items">
+                          <a
+                            class="page-link pagination-links"
+                            href="javascript:void(0)"
+                            >3</a
+                          >
+                        </li>
+                        <li class="page-item items">
+                          <a
+                            class="page-link pagination-links"
+                            href="javascript:void(0)"
+                            >4</a
+                          >
+                        </li>
+                      </ul>
+                    </nav >
+                  </div>
+
+                  <div
+                    class="col-md-6 col-12 p-0">
+                    <div class="col-12">
+                      <div class="row m-0">
+                        <div class="col-6 colum-box1">
+                          <img
+                            src="./images/makkah.jpg"
+                            alt="Makkah"
+                            class="kitab-img img-fluid"
+                          />
+                        </div>
+
+
+                          <div class=" col-6 colum-box2 p-0">
+                            <img
+                              src="./images/text-bg.png"
+                              class="text-bg img-fluid"
+                            />
+
+                              <h2 class="t-pages">
+                                Total Pages <br />
+                                34
+                              </h2>
+                          </div>
+
+                      </div>
+
+                      <div class="row m-0" >
+
+                        <div class="col-6 colum-box2 p-0"   >
+                          <img src="./images/text-bg.png" class="text-bg img-fluid">
+                          <h2 class="descripe-text">Description</h2>
+                        </div>
+
+                        <div
+                          class="col-6 colum-box1 p-0" >
+                          <p class="Makkah-text">Yaad e Makkah o Madina</p>
+                        </div>
+                      </div>
+
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+               <!-- caro 1 end -->
+
+              <!-- caro 2 -->
+
+              <div class="carousel-item ">
+                <div class="row">
+                  <div class="col-md-6 col-12 book-bg p-0">
+                    <div class="audio-text-box">
+                      <h2>امیراہل سنت کا پہلا حج 1980ء</h2>
+
+                      <div class="audio-btn-box">
+                        <button type="button">Download</button>
+                        <button type="button">Audio</button>
+                      </div>
+
+                      <audio
+                        _ngcontent-serverapp-c30=""
+                        controls=""
+                        class="d-block audio__bar__styling audio-bar"
+                        id="audio-132039"
+                      >
+                        <source
+                          _ngcontent-serverapp-c30=""
+                          type="audio/mpeg"
+                          src="https://data2.dawateislami.net/download/islam/ur/mp3/2023/132039.mp3"
+                        />
+                      </audio>
+                    </div>
+
+                    <nav
+                      aria-label="Page navigation example "
+                      class="page-example " 
+                    >
+                      <ul class="pagination m-0  page-ul">
+                        <li class="page-item items " >
+                          <a 
+                            class="page-link pagination-links "
+                            href="javascript:void(0)"
+                            >1</a
+                          >
+                        </li>
+                        <li class="page-item items">
+                          <a
+                            class="page-link pagination-links active"
+                            href="javascript:void(0)"
+                            >2</a
+                          >
+                        </li>
+                        <li class="page-item items">
+                          <a
+                            class="page-link pagination-links"
+                            href="javascript:void(0)"
+                            >3</a
+                          >
+                        </li>
+                        <li class="page-item items">
+                          <a
+                            class="page-link pagination-links"
+                            href="javascript:void(0)"
+                            >4</a
+                          >
+                        </li>
+                      </ul>
+                    </nav >
+
+                  </div>
+
+                  <div
+                    class="col-md-6 col-12 p-0">
+                    <div class="col-12">
+                      <div class="row m-0">
+                        <div class="col-6 colum-box1">
+                          <img
+                            src="./images/bt3231.jpg"
+                            alt="Makkah"
+                            class="kitab-img img-fluid"
+                          />
+                        </div>
+
+
+                          <div class=" col-6 colum-box2 p-0">
+                            <img
+                              src="./images/text-bg.png"
+                              class="text-bg img-fluid"
+                            />
+
+                              <h2 class="t-pages">
+                                Total Pages <br />
+                                17
+                              </h2>
+                          </div>
+
+                      </div>
+
+                      <div class="row m-0" >
+
+                        <div class="col-6 colum-box2 p-0"   >
+                          <img src="./images/text-bg.png" class="text-bg img-fluid">
+                          <h2 class="descripe-text">Description</h2>
+                        </div>
+
+                        <div
+                          class="col-6 colum-box1 p-0" >
+                          <p class="Makkah-text">Ameer e Ahle Sunnat Ka <br> Pehla Hajj 1980</p>
+                        </div>
+                      </div>
+
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+               <!-- caro 2 end -->
+
+
+                   <!-- caro 3 -->
+
+                   <div class="carousel-item " >
+                    <div class="row">
+                      <div class="col-md-6 col-12 book-bg p-0">
+                        <div class="audio-text-box">
+                          <h2>ماں باپ کے متعلق واقعات</h2>
+    
+                          <div class="audio-btn-box">
+                            <button type="button">Download</button>
+                            <button type="button">Audio</button>
+                          </div>
+    
+                          <audio
+                            _ngcontent-serverapp-c30=""
+                            controls=""
+                            class="d-block audio__bar__styling audio-bar"
+                            id="audio-132039"
+                          >
+                            <source
+                              _ngcontent-serverapp-c30=""
+                              type="audio/mpeg"
+                              src="https://data2.dawateislami.net/download/islam/ur/mp3/2023/132039.mp3"
+                            />
+                          </audio>
+                        </div>
+    
+                        <nav
+                        aria-label="Page navigation example "
+                        class="page-example " 
+                      >
+                        <ul class="pagination m-0  page-ul">
+                          <li class="page-item items " >
+                            <a 
+                              class="page-link  pagination-links "
+                              href="javascript:void(0)"
+                              >1</a
+                            >
+                          </li>
+                          <li class="page-item items">
+                            <a
+                              class="page-link pagination-links "
+                              href="javascript:void(0)"
+                              >2</a
+                            >
+                          </li>
+                          <li class="page-item items">
+                            <a
+                              class="page-link pagination-links active"
+                              href="javascript:void(0)"
+                              >3</a
+                            >
+                          </li>
+                          <li class="page-item items">
+                            <a
+                              class="page-link pagination-links"
+                              href="javascript:void(0)"
+                              >4</a
+                            >
+                          </li>
+                        </ul>
+                      </nav >
+
+                      </div>
+    
+                      <div
+                        class="col-md-6 col-12 p-0">
+                        <div class="col-12">
+                          <div class="row m-0">
+                            <div class="col-6 colum-box1">
+                              <img
+                                src="./images/st3223.jpg"
+                                alt="Makkah"
+                                class="kitab-img img-fluid"
+                              />
+                            </div>
+    
+    
+                              <div class=" col-6 colum-box2 p-0">
+                                <img
+                                  src="./images/text-bg.png"
+                                  class="text-bg img-fluid"
+                                />
+    
+                                  <h2 class="t-pages">
+                                    Total Pages <br />
+                                    21
+                                  </h2>
+                              </div>
+    
+                          </div>
+    
+                          <div class="row m-0" >
+    
+                            <div class="col-6 colum-box2 p-0"   >
+                              <img src="./images/text-bg.png" class="text-bg img-fluid">
+                              <h2 class="descripe-text">Description</h2>
+                            </div>
+    
+                            <div
+                              class="col-6 colum-box1 p-0" >
+                              <p class="Makkah-text">Maa Baap Ke Mutalliq <br> Waqiaat</p>
+                            </div>
+                          </div>
+    
+                        </div>
+    
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- caro 3 end -->
+
+
+                <!-- caro 4 -->
+            
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-md-6 col-12 book-bg p-0">
+                      <div class="audio-text-box">
+                        <h2>امیراہل سنت کے 150 ارشادات</h2>
+  
+                        <div class="audio-btn-box">
+                          <button type="button">Download</button>
+                          <button type="button">Audio</button>
+                        </div>
+  
+                        <audio
+                          _ngcontent-serverapp-c30=""
+                          controls=""
+                          class="d-block audio__bar__styling audio-bar"
+                          id="audio-132039"
+                        >
+                          <source
+                            _ngcontent-serverapp-c30=""
+                            type="audio/mpeg"
+                            src="https://data2.dawateislami.net/download/islam/ur/mp3/2023/132039.mp3"
+                          />
+                        </audio>
+                      </div>
+
+                      <nav
+                      aria-label="Page navigation example "
+                      class="page-example " 
+                    >
+                      <ul class="pagination m-0  page-ul">
+                        <li class="page-item items " >
+                          <a 
+                            class="page-link pagination-links "
+                            href="javascript:void(0)"
+                            >1</a
+                          >
+                        </li>
+                        <li class="page-item items">
+                          <a
+                            class="page-link pagination-links "
+                            href="javascript:void(0)"
+                            >2</a
+                          >
+                        </li>
+                        <li class="page-item items">
+                          <a
+                            class="page-link pagination-links"
+                            href="javascript:void(0)"
+                            >3</a
+                          >
+                        </li>
+                        <li class="page-item items">
+                          <a
+                            class="page-link pagination-links active"
+                            href="javascript:void(0)"
+                            >4</a
+                          >
+                        </li>
+                      </ul>
+                    </nav >
+
+                    </div>
+  
+                    <div
+                      class="col-md-6 col-12 p-0">
+                      <div class="col-12">
+                        <div class="row m-0">
+                          <div class="col-6 colum-box1">
+                            <img
+                              src="./images/st3213.jpg"
+                              alt="Makkah"
+                              class="kitab-img img-fluid"
+                            />
+                          </div>
+  
+  
+                            <div class=" col-6 colum-box2 p-0">
+                              <img
+                                src="./images/text-bg.png"
+                                class="text-bg img-fluid"
+                              />
+  
+                                <h2 class="t-pages">
+                                  Total Pages <br />
+                                  17
+                                </h2>
+                            </div>
+  
+                        </div>
+  
+                        <div class="row m-0" >
+  
+                          <div class="col-6 colum-box2 p-0"   >
+                            <img src="./images/text-bg.png" class="text-bg img-fluid">
+                            <h2 class="descripe-text">Description</h2>
+                          </div>
+  
+                          <div
+                            class="col-6 colum-box1 p-0" >
+                            <p class="Makkah-text">Ameer e Ahle Sunnat Ke 150 Irshadat</p>
+                          </div>
+                        </div>
+  
+                      </div>
+  
+                    </div>
+                  </div>
+                </div>
+
+                <!-- caro 4 end -->
+
+            </div>
+            <!-- <button  class="carousel-control-prev" style="height: fit-content; width: fit-content; margin-top: 13%;" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" style="height: fit-content; width: fit-content; margin-top: 13%;" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button> -->
+          </div>
+        </div>
+
+        
+        <div class="container p-0 mt-3">
+          <div class="Featured-book">
+            <h3>Featured Book</h3>
+          </div>
+        </div>
+
+ 
+
+        <div class="container p-0 mutamirin-box " >
+
+          <div class="row m-0" >
+
+          <div class="col-md-5 col-12 rafiq-img-box p-0" >
+
+              <div class="rafiq-kitab">
+                <img src="./images/st655.jpg" class="img-fluid" >
+              </div>
+
+          </div>
+
+          <div class="col-md-7 col-12 mutamirin-content" >
+
+            <div class="rafiq-text-box py-3">
+
+              <a class="rafiq-link" href="javascript:void(0)"><p class="para-1">Rafiq ul Mutamirin</p></a>
+
+              <p class="para-2">رفیق المعتمرین </p>
+
+              <div class="category">
+
+                <p class="para-3">
+                  <span>Total Pages :</span>
+                  42
+                </p>
+
+
+                <p class="para-4">
+                  <span>Description :</span>
+                  اس کتاب میں آپ پڑھ سکیں گے:عمرے والے کےلیے 52 نیتیں،آپ کو عزم مدینہ مبارک ہو،اسلامی بہنوں کا حرم،مرد وعورت کے احرام میں فرق اور بہت کچھ ۔ ۔ ۔ 
+                </p>
+
+              </div>
+
+              <p class="para-btn">
+                <button type="button">Download</button>
+              </p>
+
+            </div>
+
+          </div>
+
+          </div>
+
+        </div>
+
+
+            <div class="read-book-box " >
+              <div class="container about-book all-book" >
+                <div class="b-box">
+                  <h3>Read Books By Category</h3>
+                </div>
+                <div class="show-box">
+                  <a href="javascript:void(0)">Show All></a>
+                </div>
+              </div>
+
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="col-12">
+                      <div class="row text-center">
+  
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-6 px-0"> 
+                           <a class="read-book-link" href="javascript:void(0)"><h4>Quran-o-Tafseer</h4></a>
+                        </div>
+  
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-6 px-0"> 
+                          <a class="read-book-link" href="javascript:void(0)"><h4>Hadees Usool-e-Hadees</h4></a>
+                        </div>
+  
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-6 px-0"> 
+                          <a class="read-book-link" href="javascript:void(0)"><h4>Aqaid</h4></a>
+                        </div>
+  
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-6 px-0">
+                          <a class="read-book-link" href="javascript:void(0)"><h4>Fiqh-o-Usool-e-Fiqh</h4></a>
+                        </div>
+  
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-6 px-0"> 
+                          <a class="read-book-link" href="javascript:void(0)"><h4>Seerat</h4></a>
+                        </div>
+  
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-6 px-0"> 
+                          <a class="read-book-link" href="javascript:void(0)"><h4>Tasawwuf</h4></a>
+                        </div>
+  
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-6 px-0">
+                          <a class="read-book-link" href="javascript:void(0)"><h4>Neki ki Dawat</h4></a>
+                           </div>
+  
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-6 px-0">
+                          <a class="read-book-link" href="javascript:void(0)"><h4>Mojzaat-o-Karamaat</h4></a>
+                           </div>
+  
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-6 px-0"> 
+                          <a class="read-book-link" href="javascript:void(0)"><h4>Akhlaaq-o-Aadaab</h4></a>
+                        </div>
+  
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-6 px-0"> 
+                          <a class="read-book-link" href="javascript:void(0)"><h4>Malfuzat-e-Ameer-e-Ahl-e-Sunnat</h4></a>
+                        </div>
+  
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-6 px-0"> 
+                          <a class="read-book-link" href="javascript:void(0)"><h4>Darsi Kutub</h4></a>
+                        </div>
+  
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-6 px-0"> 
+                          <a class="read-book-link" href="javascript:void(0)"><h4>Madani Muzakrah Q And A</h4></a>
+                        </div>
+  
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+
+            <div class="middle-box mb-4">
+              <div class="container about-book" >
+                <div class="b-box">
+                  <h3>Month Of Zul Hijjah Tul Haram</h3>
+                </div>
+      
+                <div class="show-box">
+                  <a href="javascript:void(0)">Show All></a>
+                </div>
+              </div>
+      
+              <div class="container carousel">
+                <div class="owl-carousel theme owl-box">
+                  <div class="item">
+                    <img src="./images/st549.jpg" alt="Book" class="" />
+                    <div class="icon-box">
+                      <i class="fa fa-download download-icons"></i>
+                    </div>
+                    <p><a href="#">Rafiq ul Haramain</a></p>
+                  </div>
+                  <div class="item">
+                    <img src="./images/st655.jpg" alt="Book" class="" />
+                    <div class="icon-box">
+                      <i class="fa fa-download download-icons"></i>
+                    </div>
+                    <p><a href="#">Rafiq ul Mutamirin </a></p>
+                  </div>
+                  <div class="item">
+                    <img src="./images/bt1854.jpg" alt="Book" class="sec-caro-img" />
+                    <div class="icon-box">
+                      <i class="fa fa-download download-icons"></i>
+                    </div>
+                    <p><a href="#">Aasan Hajj</a></p>
+                  </div>
+                  <div class="item">
+                    <img src="./images/bt547.jpg" alt="Book" class="sec-caro-img" />
+                    <div class="icon-box">
+                      <i class="fa fa-download download-icons"></i>
+                    </div>
+                    <p><a href="#">Namaz e Eid Ka Tariqa</a></p>
+                  </div>
+                  <div class="item">
+                    <img src="./images/bt2168.jpg" alt="Book" class="sec-caro-img" />
+                    <div class="icon-box">
+                      <i class="fa fa-download download-icons"></i>
+                    </div>
+                    <p><a href="#">Qurbani Kay Fatawa</a></p>
+                  </div>
+                  <div class="item">
+                    <img src="./images/bt2680.jpg" alt="Book" class="sec-caro-img" />
+                    <div class="icon-box">
+                      <i class="fa fa-download download-icons"></i>
+                    </div>
+                    <p><a href="#"> 60 Hajj Karnay Wala Haji </a></p>
+                  </div>
+                  <div class="item">
+                    <img src="./images/bt1211.jpg" alt="Book" class="sec-caro-img" />
+                    <div class="icon-box">
+                      <i class="fa fa-download download-icons"></i>
+                    </div>
+                    <p><a href="#">Beta Hoto Aisa</a></p>
+                  </div>
+                  <div class="item">
+                    <img src="./images/bt3016.jpg" alt="Book" class="sec-caro-img" />
+                    <div class="icon-box">
+                      <i class="fa fa-download download-icons"></i>
+                    </div>
+                    <p><a href="#">Zul Hijjah Tul Haram Kay 78 Mazameen</a></p>
+                  </div>
+                  <div class="item">
+                    <img src="./images/bt18.jpg" alt="Book" class="sec-caro-img" />
+                    <div class="icon-box">
+                      <i class="fa fa-download download-icons"></i>
+                    </div>
+                    <p><a href="#">Ablaq Ghorey Suwar (Qurbani Book)</a></p>
+                  </div>
+                  <div class="item">
+                    <img src="./images/bt338.jpg" alt="Book" class="sec-caro-img" />
+                    <div class="icon-box">
+                      <i class="fa fa-download download-icons"></i>
+                    </div>
+                    <p><a href="#">Karamaat e Usman e Ghani</a></p>
+                  </div>
+      
+                  <div class="item">
+                    <img src="./images/bt552.jpg" alt="Book" class="sec-caro-img" />
+                    <div class="icon-box">
+                      <i class="fa fa-download download-icons"></i>
+                    </div>
+                    <p><a href="#">Hajj o Umrah Ka Mukhtasar Tariqa</a></p>
+                  </div>
+      
+                  <div class="item">
+                    <img src="./images/bt669.jpg" alt="Book"  class="sec-caro-img" />
+                    <div class="icon-box">
+                      <i class="fa fa-download download-icons"></i>
+                    </div>
+                    <p><a href="#">Aashiqan e Rasool Ki 130 Hikayaat Ma Makkay Madinay Ki Ziyaratain</a></p>
+                  </div>
+                </div>
+      
+                <div class="arrow-box">
+                  <div class="owl-prev theme">
+                    <img src="./images/right.png" />
+                  </div>
+                  <div class="owl-next">
+                    <img src="./images/left.png" />
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+
+         <section>
+
+          <div class="col-12 text-center" >
+
+            <div class="row m-0" >
+
+              <div class="col-lg-6 col-md-6 col-12 donation feed-back">
+
+                <h5> Feed back </h5>
+                <p> Save any Islamic Book to favorite and read any time later, see your progress and get notified with special announcement. </p>
+                <a href="#">
+                  <button class="feed-back-btn">Feed back</button>
+                </a>
+
+              </div>
+
+
+              <div class="col-lg-6 col-md-6 col-12 donation">
+
+                <h5> Donate </h5>
+                <p> Your donation can be used for any permissible, religious, reformatory, welfare, well-wishing, Spiritual, and good purpose. </p>
+                <a href="#">
+                  <button class="donation-btn">Give donations</button>
+                </a>
+
+
+              </div>
+
+            </div>
+
+          </div>
+
+         </section>
+
+
+         <footer class="footer-styling py-3" >
+
+          <div class="container">
+
+            <div class="row">
+
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                <p class="copy-right">Copyright © 2023, Dawat-e-Islami</p>
+              </div>
+
+              <div class="col-lg-6 col-md-6 col-sm-12 br">
+                <p class="copy-right">   
+                <span> Follow us </span>
+
+                <a href="#" class="footer-icons facebook fa-brands fa-facebook-f" ></a>
+                <a href="#" class="footer-icons youtube fa-brands fa-youtube" ></a>
+                <a href="#" class="footer-icons twitter fa-brands fa-twitter" ></a>
+              </p>
+
+              </div>
+
+              <div class="col-12 developer">
+               <span class="devText">Developer:</span>
+               <span class="devName"> Shahwar Ali Rajpoot</span>
+              </div>
+            </div>
+
+          </div>
+
+         </footer>
+
+
+      </div>
+    </div>
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+      integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        // margin: 0,
+        // nav: true,
+        autoplay: true,
+
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 2,
+          },
+          1000: {
+            items: 4,
+          },
+        },
+      });
+    </script>
+
+<script>
+  $(document).ready(function() {
+    
+  $('.pagination-links').click(function() {
+  
+  $('.pagination-links').addClass('active');
+  
+});
+      
+  $('.pagination-links').click(function() {
+  
+  $('.pagination-links').removeClass('active');
+        
+  $(this).addClass('active');
+
+  });
+  });
+
+</script>
+
+  </body>
+</html>
